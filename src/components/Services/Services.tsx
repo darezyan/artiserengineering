@@ -60,7 +60,7 @@ const Services = () => {
           <div key={idx} className="service-card">
             <div className="service-title">
               <h3>{service.title}</h3>
-              <FaPlay className="icon" />
+            
             </div>
             <p>{service.description}</p>
             <hr />
