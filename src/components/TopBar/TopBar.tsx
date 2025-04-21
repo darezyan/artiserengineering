@@ -1,4 +1,3 @@
-import React from "react";
 import "./TopBar.css";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa"; // React icons
 import { assets } from "../../assets/Assets";
