@@ -1,0 +1,12 @@
+.footer {
+    
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(to bottom, white 0%, #f0f0f0 100%);
+    font-size: 14px;
+    color: #333;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+    z-index: 0; /* <== This is key */
+  }
