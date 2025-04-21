@@ -1,8 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { assets } from "../../assets/Assets";
 import "./Hero.css";
-import { HashLink } from "react-router-hash-link";
-import { Home } from "lucide-react";
+
 
 interface GalleryImage {
   src: string;
