@@ -1,5 +1,4 @@
 import "./Services.css";
-import { FaPlay } from "react-icons/fa";
 
 const services = [
     {
