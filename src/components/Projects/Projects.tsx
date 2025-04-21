@@ -34,11 +34,7 @@ const projects: Project[] = [
     description: "Design, fabrication, and installation of aluminum windows & Railings for Delta State House of Assembly",
     image: assets.hoa,
   },
-  {
-    title: "Security Fencing & Solar Street Light",
-    description: "Installed perimeter fencing with integrated CCTV and solar-powered street lights.",
-    image: assets.event,
-  },
+
 ];
 
 const Projects: React.FC = () => {
