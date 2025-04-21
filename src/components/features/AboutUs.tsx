@@ -1,6 +1,4 @@
-import React from "react";
 import "./AboutUs.css";
-import craneImg from "../assets/crane.jpg"; // Replace with actual image path
 import Projects from "../Projects/Projects";
 import TopBar from "../TopBar/TopBar";
 import { assets } from "../../assets/Assets";
