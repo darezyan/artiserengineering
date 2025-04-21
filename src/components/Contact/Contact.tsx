@@ -1,4 +1,3 @@
-import React from "react";
 import "./Contact.css";
 import { FaMapMarkerAlt, FaPhoneAlt, FaPaperPlane } from "react-icons/fa";
 
