@@ -2,7 +2,7 @@ import "./AboutUs.css";
 import Projects from "../Projects/Projects";
 import TopBar from "../TopBar/TopBar";
 import { assets } from "../../assets/Assets";
-import { HashLink } from "react-router-hash-link";
+
 const AboutUs = () => {
   return (
 <>
