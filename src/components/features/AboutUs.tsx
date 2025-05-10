@@ -2,7 +2,7 @@ import "./AboutUs.css";
 import Projects from "../Projects/Projects";
 import TopBar from "../TopBar/TopBar";
 import { assets } from "../../assets/Assets";
-
+import { HashLink } from "react-router-hash-link";
 const AboutUs = () => {
   return (
 <>
@@ -49,7 +49,10 @@ const AboutUs = () => {
           <p>
             <strong>Want to know more about us?</strong> Just contact us
           </p>
-          <button>Speak To Us</button>
+          <a href="mailto:dareariyo68@yahoo.com">
+              <button>Email us</button>
+            </a>
+
         </div>
 
         <div className="aboutus-highlight">

@@ -20,6 +20,11 @@ const projects: Project[] = [
     image: assets.proj2,
   },
   {
+    title: "Aluminum Window Installation - Warri",
+    description: "Design, fabrication, and installation of aluminum windows for an Event Center, Warri",
+    image: assets.ev,
+  },
+  {
     title: "Aluminum Window & Railings Installation - Warri",
     description: "Design, fabrication, and installation of aluminum windows & Railings for Army Secondary School, Warri.",
     image: assets.proj3,
@@ -30,9 +35,19 @@ const projects: Project[] = [
     image: assets.lib,
   },
   {
-    title: "Aluminum Window & Railings Installation - Warri",
+    title: "Aluminum Window Installation - Asaba",
     description: "Design, fabrication, and installation of aluminum windows & Railings for Delta State House of Assembly",
     image: assets.hoa,
+  },
+  {
+    title: "Aluminum Window & Railings Installation - Asaba",
+    description: "Design, fabrication, and installation of aluminum windows & Railings for a Hotel",
+    image: assets.event,
+  },
+  {
+    title: "Aluminum Window & Railings Installation - Asaba",
+    description: "Design, fabrication, and installation of aluminum windows & Railings for a School",
+    image: assets.rail,
   },
 
 ];

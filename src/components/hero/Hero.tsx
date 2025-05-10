@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import { assets } from "../../assets/Assets";
 import "./Hero.css";
 
-
 interface GalleryImage {
   src: string;
   alt: string;
@@ -46,16 +45,15 @@ const Hero: React.FC = () => {
   return (
     <div className="all-hero">
       <div className="hero">
-      <h1 className="hero-title">
-  Engineering Excellence, Built on Experience
-</h1>
-<p className="hero-subtitle">
-  Since 2005, Arister Engineering has delivered expert civil, mechanical, and electrical solutions, with trusted partnerships and a strong focus on design, fabrication, installation, and project management.
-</p>
-
-
-
-        
+        <h1 className="hero-title">
+          Engineering Excellence, Built on Experience
+        </h1>
+        <p className="hero-subtitle">
+          Since 2005, Arister Engineering has delivered expert civil,
+          mechanical, and electrical solutions, with trusted partnerships and a
+          strong focus on design, fabrication, installation, and project
+          management.
+        </p>
       </div>
 
       {/* Curved Gallery Component */}

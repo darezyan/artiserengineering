@@ -1,5 +1,5 @@
 import "./Contact.css";
-import { FaMapMarkerAlt, FaPhoneAlt, FaPaperPlane } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhoneAlt, FaPaperPlane, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -11,15 +11,28 @@ const Contact = () => {
         <div className="contact-info">
           <div className="info-item">
             <FaMapMarkerAlt className="icon" />
-            <p>
-            Plot 15, Biosa Amantu Street,
-Off DLA Road, Asaba, Delta State.
-
-            </p>
+            <a 
+              href="https://www.google.com/maps?q=Plot+15,+Biosa+Amantu+Street,+Off+DLA+Road,+Asaba,+Delta+State" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <p>
+                Plot 15, Biosa Amantu Street,
+                Off DLA Road, Asaba, Delta State.
+              </p>
+            </a>
           </div>
           <div className="info-item">
             <FaPhoneAlt className="icon" />
-            <p>08034083583</p>
+            <a href="tel:+2348034083583">
+              <p>08034083583</p>
+            </a>
+          </div>
+          <div className="info-item">
+            <FaEnvelope className="icon" />
+            <a href="mailto:dareariyo68@yahoo.com">
+              <p>dareariyo68@yahoo.com</p>
+            </a>
           </div>
           <div className="open-hours">
             <strong>Open Hours:</strong>

@@ -6,6 +6,8 @@ import card from './aristerCard.jpg'
 import  lib from './library.png'
 import hoa from './HOA.png'
 import event from './cctv.jpg'
+import rail from './school.png'
+import ev from './Event.png'
 interface Assets {
   proj1: string;
   proj2: string;
@@ -15,6 +17,9 @@ interface Assets {
   lib: string;
   hoa: string;
   event: string;
+  rail: string;
+  ev: string;
+
 }
 export const assets: Assets ={
     proj1,
@@ -24,5 +29,8 @@ export const assets: Assets ={
     card,
     lib,
     hoa,
-    event
+    event,
+    rail,
+    ev
+  
  }
